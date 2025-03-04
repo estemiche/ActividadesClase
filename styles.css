@@ -1,0 +1,93 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #c8ece9;
+}
+
+.contenedor {
+    margin-top: 50px;
+    padding: 25px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    display: inline-block;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+    border: 2px solid #80cbc4;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button#addBtn {
+    background: #26a69a;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button#addBtn:hover {
+    background: #0c3530;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background: #26a69a;
+    margin-top: 8px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+li span {
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+li .botones {
+    display: flex;
+    gap: 8px;
+}
+
+li button {
+    padding: 6px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+li button.edit {
+    background: #23db42;
+}
+
+li button.edit:hover {
+    background: #388e3c;
+}
+
+li button.delete {
+    background: #ee6464;
+}
+
+li button.delete:hover {
+    background: #d32f2f;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: rgb(57, 61, 59);
+}
